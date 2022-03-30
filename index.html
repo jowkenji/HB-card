@@ -19,7 +19,7 @@
         <header>
             <h1>Project #3003</h1>
         </header>
-        <button class="message">Safe for work!</button>
+        <button class="message">Start Here!</button>
         <button class="clear">Panic button!</button>
         <div class="main">
 
@@ -42,10 +42,10 @@
 
             messageBtn.addEventListener('click', () => {
                 h1.textContent = 'Guess whaaat?!';
-                if (image.getAttribute('src') === `${imageBDay2URL}`) {
-                    image.setAttribute('src', `${imageBDay1URL}`);    
+                if (image.getAttribute('src') === `${imageBDay1URL}`) {
+                    image.setAttribute('src', `${imageBDay2URL}`);    
                 } else {
-                    image.setAttribute('src', `${imageBDay2URL}`);
+                    image.setAttribute('src', `${imageBDay1URL}`);
                 }
                 main.appendChild(image);
                 messageBtn.textContent = 'Another one...';
