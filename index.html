@@ -42,10 +42,10 @@
 
             messageBtn.addEventListener('click', () => {
                 h1.textContent = 'Guess whaaat?!';
-                if (image.getAttribute('src') === `${imageBDay1URL}`) {
-                    image.setAttribute('src', `${imageBDay2URL}`);    
+                if (image.getAttribute('src') === `${imageBDay2URL}`) {
+                    image.setAttribute('src', `${imageBDay1URL}`);    
                 } else {
-                    image.setAttribute('src', `${imageBDay1URL}`);
+                    image.setAttribute('src', `${imageBDay2URL}`);
                 }
                 main.appendChild(image);
                 messageBtn.textContent = 'Another one...';
@@ -53,7 +53,7 @@
 
             clearBtn.addEventListener('click', () => {
                 h1.textContent = 'Project #3003 running tests...'
-                image.setAttribute('src', 'giphy.gif');
+                image.setAttribute('src', `${imagePanicURL}`);
                 main.appendChild(image);
                 messageBtn.textContent = 'Is it safe now...';
             })
