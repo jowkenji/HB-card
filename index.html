@@ -42,10 +42,10 @@
 
             messageBtn.addEventListener('click', () => {
                 h1.textContent = 'Guess whaaat?!';
-                if (image.getAttribute('src') === `${imageBDay2URL}`) {
-                    image.setAttribute('src', `${imageBDay1URL}`);    
+                if (image.getAttribute('src') === `${imageBDay1URL}`) {
+                    image.setAttribute('src', `${imageBDay2URL}`);    
                 } else {
-                    image.setAttribute('src', `${imageBDay2URL}`);
+                    image.setAttribute('src', `${imageBDay1URL}`);
                 }
                 main.appendChild(image);
                 messageBtn.textContent = 'Another one...';
