@@ -10,7 +10,9 @@ const image = document.createElement('img');
 const imagePanicURL = 'https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif';
 const imageBDay1URL = 'https://c.tenor.com/KnWD3xyzkV4AAAAC/happy-birthday-gifts.gif';
 const imageBDay2URL = 'https://c.tenor.com/2SbeHfqVfOIAAAAC/happy-birthday-spongebob.gif';
+const imageBDay3URL = 'https://blog.yellowoctopus.com.au/wp-content/uploads/2017/06/yellow-octopus-happy-birthday-meme0.jpg';
 
+const maxWidth = window.innerWidth;
 
 messageBtn.addEventListener('click', () => {
     h1.textContent = 'Guess whaaat?!';
@@ -19,6 +21,7 @@ messageBtn.addEventListener('click', () => {
     } else {
         image.setAttribute('src', `${imageBDay1URL}`);
     }
+    image.setAttribute('width', maxWidth);
     main.appendChild(image);
     messageBtn.textContent = 'Another one...';
 });
