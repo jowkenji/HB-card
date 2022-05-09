@@ -3,6 +3,7 @@ html {
     color: azure;
 }
 
-div {
-    height: 400px;
+img {
+    max-width: 1000px;
+    width: 100vw;
 }
