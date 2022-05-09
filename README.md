@@ -10,6 +10,6 @@ I came up with the idea to send him a coded birthday message, but on a second th
 I knew it was possible to do it with GitHub, but 'how' was unknown. So, it was coded in 60 minutes or less... and the real adventure here was to learn how to use Git from Zero, and deliver it in the same date! Success... And worth it! 😉
 
 <h3>What about next? The simplicity is the key, but it still has some space for improvements:</h3>
-- Responsive layout (the gif image is quite challenging)<br />
+- <strike>Responsive layout (the gif image is quite challenging)</strike><br />
 - Create a List of images<br />
 - Remove panic button during panic mode<br />
